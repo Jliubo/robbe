@@ -1,0 +1,358 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background: #000;
+    font-family: 'futura', sans-serif;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #fff;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    padding-top: 15px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition-duration: .4s;
+    padding: 4px;
+}
+.navbar a:hover{
+    background: rgba(0,0,0,0.2);
+}
+.navbar{
+    float: right;
+    margin-top: -20px;
+    margin-right: 60px;
+}
+.horizontal{
+    width: 1100px;
+    height:1px;
+    background: #fff;
+    margin: 20px auto;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+    color: #fff;
+}
+.tagline{
+    margin-top: 130px;
+    margin-left: 100px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.tagline a{
+    display: block;
+    background: #fff;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.tagline a:hover{
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+.tagline h1{
+    margin-bottom: 20px;
+    font-size: 40Px;
+}
+.tagline h2{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
+}
+.low_navbar{
+    margin-top: 120px;
+}
+.low_navbar a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 130px;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    transition-duration: .4s;
+}
+.low_navbar a:hover{
+    color: #000;
+    background: #fff;
+}
+.low_navbar a i{
+    margin-right: 10px;
+}
+.description{
+    width: 100%;
+    background: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 60px;
+}
+.description h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.description h3{
+    color: rgba(0,0,0,0.5);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.description article{
+    float: left;
+    position: relative;
+    width: 33.3333333333333%;
+    margin-bottom: -4px;
+    transition-duration: .4s;
+}
+.description article img{
+    width: 100%;
+    height: auto;
+}
+.description article div{
+    position: absolute;
+    color: #fff;
+    top: 20%;
+    left: 10%;
+    font-size: 30px;
+    text-align: left;
+}
+.closer{
+    margin-top: -38px;
+}
+.description article div p:first-child{
+    margin-bottom: 80px;
+}
+.description article:hover{
+    opacity: .5;
+}
+.newsletter{
+    background: #000;
+    height: 80px;
+}
+.newsletter p{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    margin-left: 60px;
+}
+.newsletter p,form{
+    float:left;
+}
+.newsletter form{
+    line-height: 80px;
+    margin-left: 40px;
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding-left: 3px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+input[type="text"]::placeholder{
+    font-size: 16px;
+    font-style: italic;
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    font-style: italic;
+    border: none;
+    letter-spacing: 1px;
+}
+.alloggio{
+    width: 100%;
+}
+.prenota{
+    width: 800px;
+    height: 80px;
+    margin: 50px auto;
+    background: #000;
+    margin-bottom: 80px;
+    text-align: left;
+    position: relative;
+}
+.prenota a{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    right: 8%;
+}
+.prenota div{
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+label {
+    display: block;
+    color: #fff;
+    margin-bottom: -10px;
+}
+input[type="date"]{
+    width: 140px;
+    height: 25px;
+}
+input[type="number"]{
+    width: 80px;
+    height: 25px;
+}
+.sconto{
+    width: 100%;
+    height: 284px;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(../img/risparmia.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sconto p{
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    margin-left: 430px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+.sconto p:last-child{
+    margin-left: 20px;
+    margin-top: 85px;
+    font-size: 80px;
+}
+.line{
+    width: 500px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.scuola{
+    width: 100%;
+}
+.scuola figure{
+    width: 229px;
+    text-align: justify;
+}
+.grigio{
+    margin-top: 20px;
+    opacity: .5;
+}
+.scuola figure a{
+    display: block;
+    text-decoration: none;
+    width: 225px;
+    height: 35px;
+    background: #000;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    margin: 20px auto;
+    border: 1px solid #000;
+    transition-duration: .4s;
+}
+.scuola figure a:hover{
+    background: #fff;
+    color: #000;
+}
+.scuola figure{
+    float: left;
+    margin-left: 150px;
+}
+.margine{
+    margin-bottom: 40px;
+}
+.snowpark{
+    width: 100%;
+}
+.virtuale{
+    width: 640px;
+    height: 236px;
+    float: left;
+    background:linear-gradient(rgba(32,171,163,0.5),rgba(32,171,163,0.5)), url(../img/snowpark2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 30px;
+}
+.virtuale a{
+    color: #fff;
+}
+.virtuale i{
+    margin-top: 60px;
+}
+.snow_images img{
+    float: left;
+}
+.snow_images a:hover{
+    opacity: .5;
+}
+.social{
+    height: 300px;
+}
+.social a{
+    color: #000;
+    font-size: 40px;
+    margin: 40px;
+}
+.long{
+    width: 1000px;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+}
+.information, .map{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.information p{
+    color: rgba(255, 255, 255, .5);
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+
